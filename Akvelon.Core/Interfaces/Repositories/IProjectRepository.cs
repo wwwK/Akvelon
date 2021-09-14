@@ -1,9 +1,4 @@
-﻿using Akvelon.Core.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Akvelon.Core.Models;
 
 namespace Akvelon.Core.Interfaces.Repositories
 {

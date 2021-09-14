@@ -1,13 +1,9 @@
-﻿using Akvelon.Core.Entities;
+﻿using Akvelon.Core.Models;
 using Akvelon.Core.Interfaces;
-using Akvelon.Core.Interfaces.Repositories;
 using Akvelon.Data;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json.Linq;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Akvelon.WebApi.Controllers
 {
@@ -28,7 +24,7 @@ namespace Akvelon.WebApi.Controllers
         [HttpGet]
         public IEnumerable<Project> Get()
         {
-                return _unitOfWork.ProjectRepository.GetAll(x => x.Id != 0);
+              return _unitOfWork.ProjectRepository.GetAll(x => x.Id != 0);
         }
 
         // GET api/<Project>/5

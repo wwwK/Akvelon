@@ -1,4 +1,4 @@
-﻿using Akvelon.Core.Entities;
+﻿using Akvelon.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

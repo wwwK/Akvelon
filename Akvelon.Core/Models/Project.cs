@@ -1,12 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Akvelon.Core.Entities
+namespace Akvelon.Core.Models
 {
-   public class Project
+    public class Project
     {
         public int Id { get; set; }
 
